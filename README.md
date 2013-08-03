@@ -9,7 +9,19 @@ Requires:
     nltk
     bs4 (only for opening urls)
     requests (only for opening urls)
-  
+
+Installation:
+
+    pip install nltk
+    pip install BeautifulSoup4
+    pip install requests
+
+    $ python
+    >>> nltk import
+    >>> nltk.download()
+
+    Install stopwords, punkt.
+
 Usage:
 
     git clone https://github.com/Rotten194/summarize.py.git
