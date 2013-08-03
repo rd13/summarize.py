@@ -64,7 +64,7 @@ class Summary(object):
         )
 
     def __str__(self):
-        return "{0} - {1}\n\n{2}".format(self.title, self.url, '\n'.join(self.summaries))
+        return "{0} - {1}\n\n{2}".format(self.title, self.url, '\n'.join(self.summaries).encode('ascii', 'ignore'))
 
 def summarize_page(url):
     import bs4
