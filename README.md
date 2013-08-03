@@ -17,7 +17,7 @@ Installation:
     pip install requests
 
     $ python
-    >>> nltk import
+    >>> import nltk
     >>> nltk.download()
 
     Install stopwords, punkt.
